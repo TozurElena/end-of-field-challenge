@@ -1,3 +1,72 @@
 body {
   background-color: #e3eef8;
 }
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Karla", sans-serif;
+}
+.header__nav {
+  width: 1110px;
+  height: 40px;
+  margin-left: 165px;
+  margin-right: 165px;
+  margin-top: 39px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  img {
+    width: 21px;
+    height: 12px;
+  }
+}
+.text_logo {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: -1px;
+  color: #1f1f1f;
+}
+.header__nav_list {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  list-style: none;
+}
+.header__nav_item a {
+  text-decoration: none;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.4px;
+  color: #1f1f1f;
+}
+%btn {
+  width: 137px;
+  height: 40px;
+  // padding: 10px 29px 11px 31px;
+  font-family: Karla;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: -1px;
+  border-radius: 5px;
+}
+.header__btn {
+  @extend %btn;
+  color: #258aff;
+  border-color: #258aff;
+  background-color: #e3eef8;
+}
