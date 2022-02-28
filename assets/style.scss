@@ -16,6 +16,9 @@ h1 {
   letter-spacing: 2.8125px;
   text-transform: uppercase;
 }
+h2 {
+  margin: 0;
+}
 .header__nav {
   width: 1110px;
   height: 40px;
@@ -156,8 +159,6 @@ h1 {
     line-height: 28px;
     color: #666666;
   }
-  img {
-  }
 }
 .section_blue {
   margin-top: 163px;
@@ -199,10 +200,40 @@ h1 {
 .section_design-text {
   width: 579px;
   height: 607px;
-
   margin-left: 50px;
+  h1 {
+    color: #258aff;
+  }
+  h2 {
+    margin-top: 67px;
+    width: 491px;
+    height: 112px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -2.52632px;
+    color: #1f1f1f;
+  }
+  p {
+    font-weight: normal;
+    font-size: 18px;
+    margin-right: 92px;
+    line-height: 32px;
+    color: #666666;
+  }
 }
 .section_design-img {
   width: 320px;
-  height: 625px;
+  height: 655px;
+}
+.section_design_avantages {
+  display: flex;
+  margin-top: 75px;
+  p {
+    margin-right: 20px;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 28px;
+    color: #666666;
+  }
 }
