@@ -237,3 +237,93 @@ h2 {
     color: #666666;
   }
 }
+.section_package {
+  width: 1438px;
+  height: 1106px;
+  background-color: #192f48;
+  margin-top: 132px;
+  h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2.8125px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 137px;
+  }
+  h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -2.52632px;
+    color: #ffffff;
+    margin: 40px 400px 90px 400px;
+  }
+}
+.packages {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+.packageBas {
+  width: 350px;
+  height: 515px;
+  padding: 20px 40px 20px 40px;
+  background: #2b405a;
+  border-radius: 6px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: -0.4px;
+  color: #e5e5e5;
+  span {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 32px;
+    letter-spacing: 0.433333px;
+    text-transform: uppercase;
+  }
+  .pack_btn {
+    @extend %btn;
+    background: #258aff;
+    color: #ffffff;
+    margin-top: 50px;
+  }
+}
+.packagePro {
+  width: 350px;
+  height: 515px;
+  padding: 20px 40px 20px 40px;
+  background: #ffffff;
+  border-radius: 6px;
+  .pack_btn {
+    @extend %btn;
+    background: #fc593b;
+    color: #ffffff;
+    margin-top: 50px;
+  }
+  .packagePro_pop {
+    display: flex;
+    justify-content: space-between;
+  }
+  .pro_pop {
+    width: 83px;
+    height: 26px;
+    background: #4eab08;
+    border-radius: 13px;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.514286px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+  }
+}
